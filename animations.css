@@ -80,3 +80,29 @@
     width: 500px;
     height: auto;
 }
+
+/* Esercizio 10 */
+.ex-10-icon {
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation  {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: rotate 2s linear;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0);
+    }
+
+    75% { transform: rotate(270deg);
+    }
+
+    100% { transform: rotate(0);}
+}
