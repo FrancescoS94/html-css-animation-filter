@@ -106,3 +106,46 @@
 
     100% { transform: rotate(0);}
 }
+
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: buttontop 2s linear;
+}
+@keyframes buttontop {
+    0% {
+        left: 10%;
+    }
+    70% {
+        left: 70%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: buttonbottom 2s linear;
+}
+@keyframes buttonbottom {
+    0% {
+        right: 20%;
+    }
+    70% {
+        right: 70%;
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+/* Esercizio 13 */
+.ex-13-button:hover .ex-13-top-white,
+ .ex-13-bottom-white {
+    animation: round 2s infinite;
+}
+
+@keyframes round  {
+    to {
+        transform: rotate(360deg);
+    }
+}
