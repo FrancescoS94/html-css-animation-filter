@@ -48,3 +48,35 @@
     height: 40px;
     width: 40px;
 }
+
+/* Esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* Esercizio 7 */
+.ex-7-img {
+    transition: filter 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%) saturate(10);
+}
+
+/* Esercizio 8 */
+.ex-8-img {
+    transition: filter 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 5px;
+    filter:opacity(80%) contrast(200%);
+}
+
+/* Esercizio 9 */
+.ex-9-img:hover {
+    border-radius: 5px;
+    filter: contrast(150%) drop-shadow(8px 8px 8px black);
+    width: 500px;
+    height: auto;
+}
